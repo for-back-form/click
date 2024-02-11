@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecting...</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f5f5f5; /* Set background color to a light gray */
+            color: #333; /* Set text color to dark gray */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .loader {
+            border: 8px solid #3498db; /* Set loader border color to a shade of blue */
+            border-top: 8px solid #fff; /* Set loader top border color to white */
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            animation: spin 1s linear infinite;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        h1 {
+            margin-top: 20px;
+        }
+        p {
+            margin-top: 10px;
+            font-size: 16px;
+        }
+        a {
+            color: #3498db; /* Set link color to the same shade of blue used for the loader */
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+    <meta http-equiv="refresh" content="3;url=https://nowhere-form.github.io/backend/">
+</head>
+<body>
+    <div class="loader"></div>
+    <h1></h1>
+</body>
+</html>
